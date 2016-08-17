@@ -1,0 +1,8 @@
+<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= pub.image_url %>');">
+  <div class="card-category">Popular</div>
+  <div class="card-description">
+    <h2><%= pub.name %></h2>
+    <p><%= pub.address %></p>
+  </div>
+  <%= link_to "", pub_path(pub), class: "card-link" %>
+</div>

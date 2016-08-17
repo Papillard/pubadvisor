@@ -1,0 +1,2 @@
+module PubsHelper
+end

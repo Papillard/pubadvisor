@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+
+  <% @pubs.each do |p| %>
+    <div class="col-xs-12 col-sm-4">
+      <%= render "card", pub: p %>
+    </div>
+  <% end %>
+
+  </div>
+</div>
